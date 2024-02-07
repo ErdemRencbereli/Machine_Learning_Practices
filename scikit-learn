@@ -6,3 +6,10 @@ from lab_utils_multi import  load_house_data
 from lab_utils_common import dlc
 np.set_printoptions(precision=2)
 plt.style.use('./deeplearning.mplstyle')
+
+***
+#Gradient Descent
+Scikit-learn has a gradient descent regression model [sklearn.linear_model.SGDRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html#examples-using-sklearn-linear-model-sgdregressor).  
+Like your previous implementation of gradient descent, this model performs best with normalized inputs. [sklearn.preprocessing.StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) 
+will perform z-score normalization as in a previous lab. Here it is referred to as 'standard score'.
+***
